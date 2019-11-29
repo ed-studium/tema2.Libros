@@ -13,5 +13,6 @@ public class Datos
 		Autor a3=new Autor ("Emilio","Perez", "Español");
 		Libros l3=new Libros("Como aprender Java",a3, "2016", "Editorial IG", 500);
 		System.out.println(l3.getTitulo()+" Tiene "+l3.getNumPaginas());
+		System.out.println(l3.getTitulo()+" Tiene "+l3.getNumPaginas());
 	}
 }
